@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.task-list li:has(input:checked) p {
+    color: #94a3b8;
+    text-decoration: line-through;
+}
